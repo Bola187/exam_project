@@ -1,0 +1,35 @@
+h1{
+    color: teal;
+}
+
+b{
+    font-size:  20px;
+}
+
+body
+{
+    margin: 30px;
+}
+    
+.s .log{
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    padding-top: 3px;
+    border: none;
+    padding-bottom: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: red; ;
+}
+
+p{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+input
+{
+    margin: 4px;
+}

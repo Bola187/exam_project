@@ -1,0 +1,105 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-image: url("autom.JPG");
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+}
+.menu .log{
+    position: absolute;
+    background-color: white;
+    width: 320px;
+    height: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+.menu .in .first .ss{
+    width: 200px;
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+}
+.menu .in .first .ss:hover{
+    background-color: #8B0000;
+    cursor: pointer;
+}
+.menu .go a{
+    text-decoration: none;
+}
+.menu .in ul .go{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 33px;
+    margin-left: 72px;
+}
+.menu .in ul .go li{
+   font-size: 25px;
+   margin: 0 10px;
+}
+.go  .fa-facbook{
+    color: #999;
+}
+.go .fa-twitter{
+    color: DeepSkyBlue;
+}
+.go .fa-google{
+    color: red;
+}
+.menu .links ul li a{
+    text-decoration: none;
+}
+.continer{
+    padding-left: 20px;
+    margin-top: 37px;
+}
+.inputs .do{
+    padding: 33px;
+}
+.inputs .do input{
+    margin-left: 20px;
+}
+.inputs .do label{
+    margin-left: -47px;
+}
+.inputs .done{
+    margin-left: -15px;
+}
+
+.inputs .sav{
+    margin-top: 30px;
+    margin-left: 11px;
+}
+.inputs .su,
+.res{
+    width: 100px;
+    font-weight: bold;
+    color: white;
+    padding-top: 3px;
+    border: none;
+    padding-bottom: 3px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+.inputs .su{
+    background-color: red;
+}
+.inputs .res{
+    background-color: teal;
+}
